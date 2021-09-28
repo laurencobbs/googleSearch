@@ -46,9 +46,26 @@ input{
 
 .active input{
     width: 500px;
-    padding: 12px 20px;
+    padding: 8px 15px;
 }
 
 .active .mic-icon{
     width: 30px;
 }
+
+@media (max-width: 1100px) {
+        #googleIcon{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .active input{
+        width: 165px;
+    }
+
+    .input{
+        transition: 0.5s;
+    }
+
+}
+
